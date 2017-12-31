@@ -8,6 +8,14 @@
 
 # production
 /build
+build/
+bundle.js
+*.min.*
+bootstrap*
+
+# logs
+logs
+*.Logs
 
 # misc
 .DS_Store
@@ -15,6 +23,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+*~
 
 npm-debug.log*
 yarn-debug.log*
