@@ -12,6 +12,9 @@ class HomePage extends Component {
         <Post>
           <div>Post2</div>
         </Post>
+        <Post>
+          <div>Post3</div>
+        </Post>
       </div>
     )
   }

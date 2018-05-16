@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div>          
           <NavBar />
           <Route name="home" exact path="/" component={HomePage} />
           <Footer />
