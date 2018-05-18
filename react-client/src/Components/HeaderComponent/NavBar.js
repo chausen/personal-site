@@ -9,10 +9,10 @@ class NavBar extends Component {
         <Logo title="Journeyman" subtitle="Adventures in code and other interesting places"/>
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <Link to="" className="nav-link">Home</Link>                        
+            <Link to="/" className="nav-link">Home</Link>                        
           </li>
           <li className="nav-item">
-            <Link to="" className="nav-link">About me</Link>
+            <Link to="/about-me" className="nav-link">About me</Link>
           </li>
           <li className="nav-item">
             <Link to="" className="nav-link">My Projects</Link>
